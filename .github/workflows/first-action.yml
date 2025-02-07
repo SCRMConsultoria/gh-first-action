@@ -1,0 +1,11 @@
+name: First Workflow
+on: workflow_dispach
+jobs:
+  first-job:
+    runs-on: widows-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: Print Goodbye
+        run: echo "Done - bye!"
+  
